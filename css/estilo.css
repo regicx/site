@@ -73,6 +73,13 @@ a{
 .titulo{
     text-align: center;
     color: #a64c5e;
-    font-size: 2rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.cas{
+    display: block;
+    width: 10%;
+    margin: 3% auto;
+    filter: drop-shadow(3px 3px 1px black);
+
 }
