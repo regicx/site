@@ -83,3 +83,47 @@ a{
     filter: drop-shadow(3px 3px 1px black);
 
 }
+.campo_e-mail{
+    background-color: #BE5E72;
+    display: block;
+    padding: 2%;
+    font-size: 1.5em;
+    width: 75%;
+    margin: 2% auto;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+label{
+    display: block;
+    font-size:1.2em ;
+    margin: 2% 15%;
+}
+.botão_entrar{
+    background-color: #DD8B9D;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10% auto;
+    padding: 2%;
+    text-align: center;
+    width: 40%;
+    font-size: 1.5em;
+    line-height:1.8em;
+    color: white;
+    display: block;
+
+}
+.link_termos{
+    font-size:1em ;
+    text-align: center;
+    color: #BE5E72;
+    text-decoration: none;
+
+}
+.esqueceu{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
