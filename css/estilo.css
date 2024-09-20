@@ -17,23 +17,23 @@ header{
 }
 
 .menu2 {
-    width: 15%;
+    width: 2%;
     margin: 0 2%;
 }
 
 .logo{
     display: block;
-    width: 30%;
+    width: 15%;
     margin: 3% auto;
     filter: drop-shadow(3px 3px 1px black);
 
 }
 header h1 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 1.4rem;
 }
 h2{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 .botão{
@@ -66,6 +66,7 @@ h3{
 
 a{
     text-decoration: none;
+    color: white;
 }
 .bi-arrow-right {
     margin-right: 8%;
@@ -110,20 +111,45 @@ label{
     line-height:1.8em;
     color: white;
     display: block;
-
 }
 .link_termos{
-    font-size:1em ;
+    font-size:1.5em ;
     text-align: center;
     color: #BE5E72;
     text-decoration: none;
-
+    display: block;
+    margin: 1%;
 }
 .esqueceu{
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
     color: white;
     text-decoration: none;
+    display: block;
+    margin: 1%;
 }
 
+.btn_logar {
+    width: 1%;
+    
+}
+
+.img-google {
+    width: 2%;
+    margin-left: 35%;
+}
+
+.google{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: 1% auto;
+    padding: 1%;
+    text-align: center;
+    width: 40%;
+    font-size: 1.5em;
+    line-height:1.8em;
+    color: #BE5E72;
+    display: block;
+}
 
