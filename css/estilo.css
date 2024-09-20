@@ -129,27 +129,12 @@ label{
     margin: 1%;
 }
 
-.btn_logar {
-    width: 1%;
-    
-}
-
-.img-google {
-    width: 2%;
-    margin-left: 35%;
-}
-
 .google{
-    background-color: #ffffff;
-    border: 1px solid black;
-    border-radius: 1px;
-    margin: 1% auto;
-    padding: 1%;
-    text-align: center;
-    width: 40%;
-    font-size: 1.5em;
-    line-height:1.8em;
-    color: #BE5E72;
-    display: block;
-}
+    margin-left: 37%;
+    width: 27em;
 
+}
+.face{
+    margin-left: 37% ;
+    width: 27em;
+}
