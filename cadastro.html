@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="br-pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,20 +14,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header> 
+    <header class="cabecalho_menu"> 
         <div class="cabecalho_titulos">
             <h1 class="titulo"> Shine </h1>
             <h1 class="titulo"> Cosmetics</h1>
         </div>
-        <img class="icone_menu" src="imagens/menu2.png" alt="">    
+        
+        <a href="index.html" class="link_voltar">&#x279C;</a>
+
     </header>
     <main>
-        <section>
-            <img src="imagens/shine.png" class="logo">
-            <h2 class="secao_titulo">Entrar</h2>
-            <form action="">
-               <div class="container_form">
+        <section class="formulario_cadastro">
+            <img src="imagens/shine.png" class="logo logo_pequeno">
+            <h2 class="secao_titulo">Cadastro</h2>
+            <form class="formulario" action="">
+                <div class="container_form">
                     <label for="email"> Digite seu e-mail:</label>
                     <input class="formulario_campo" name="email" id="email" type="e-mail" required placeholder="email@email.com.br">
                 </div>
@@ -34,41 +38,25 @@
                     <label for="senha"> Digite sua senha (mínimo 8 caracteres):</label>
                     <input class="formulario_campo" name="senha" id="senha" type="senha" required placeholder="********">
                 </div>
-                <input type="submit" class="botao_cadastrar" id="botao_cadastrar" value="Entrar">
+                <div class="container_form">
+                    <label for="cpf"> Digite seu CPF </label>
+                    <input class="formulario_campo" name="cpf" id="cpf" type="text" required placeholder="000.000.000-00">
+                </div>
+                <label for="termos_uso">
+                    <input type="checkbox" name="termos_uso" id="termos_uso" checked>Aceito os termos de uso.
+                </label>
+                <input type="submit" class="botao_cadastrar" id="botao_cadastrar" value="Cadastrar">
             </form>
-        </section>
-        <section>
-            <h2 class="secao_titulo">Ou Entrar Com:</h2>
-            <div class="botoes_redes">
-                <a class="login_redes" href="#">
-                    <img src="imagens/googlelogo.png" class="imagem_redes">
-                </a>
-                <a class="login_redes" href="#">
-                    <img src="imagens/facelogo.png" class="imagem_redes">
-                </a>
-            </div>
+            <a class="link termos_uso" href="#">Ler termos de uso.</a>
+            <a class="link entrar" href="cliente.html">Já possui uma conta?</a>
         </section>
     </main>
 
-<<<<<<< Updated upstream
-    <div class="line-ou">
-        <span>ou</span>
-    </div>
-    
-   <img src="imagens/googlelogo.png" class="google">
-    <img src="imagens/facelogo.png" class="face">
-
-    <a  class="esqueceu2" href="esquecida.html"> Esqueceu a senha?</a>
-
-    <input type="text" id="bb" class="aaaa">
-
-
-=======
     <footer class="rodape">
         <p class="rodape_paragrafo">Site produzido pelas alunas do Custo Técnico em Desenvolvimento de Sistemas do Colégio Regente Feijó.</p>
         <p class="rodape_paragrafo">&copy; Todos os direitos reservados &copy;</p>
     </footer>
->>>>>>> Stashed changes
-    <script src="script.js"></script>
+
 </body>
+
 </html>
