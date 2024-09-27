@@ -119,5 +119,10 @@ a.login_redes {
 
 img.imagem_redes {
     display: block;
-    width: 100%;
+    width: 40%;
+    margin-left: 36%;
+    width: 23em;
+    margin-bottom: 1%;
+    box-shadow: 2px 1px 5px black;
+
 }

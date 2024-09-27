@@ -76,7 +76,7 @@ a{
 .titulo{
     text-align: center;
     color: #a64c5e;
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.7);
 }
 .cas{
@@ -132,15 +132,15 @@ label{
 }
 
 .google{
-    margin-left: 38%;
-    width: 27em;
+    margin-left: 27%;
+    width: 16em;
     margin-bottom: 1%;
     box-shadow: 2px 1px 5px black;
 
 }
 .face{
-    margin-left: 38% ;
-    width: 27em;
+    margin-left: 27% ;
+    width: 16em;
     box-shadow: 2px 1px 5px black;
 
 
