@@ -183,3 +183,51 @@ label{
 .aaaa {
     font-size: 2rem;
 }
+
+.prod_exemplo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalago {
+    width: 40%;
+    border: 10px solid #FFED61;
+    border-radius: 100px;
+    margin: 8%;
+}
+
+.fds {
+    width: 23%;
+    margin-left: 17%;
+    padding: 1%;
+    font-size: 1.1rem;
+    align-items: center;
+    color: white;
+    background-color: #BE5E72;
+    border: 0px solid #BE5E72;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos2 {
+    display: flex;
+    margin: 3%;
+    width: 35%;
+    border: 1px solid #BE5E72;
+    background-color: #BE5E72;
+    border-radius: 8px;
+}
+
+.produtos2 h3 {
+    font-size: 1.3rem;
+    display: block;
+}
+
+.produtos2 img {
+    width: 40%;
+}

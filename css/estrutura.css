@@ -11,7 +11,7 @@ body{
     font-size: 18px;
     width: 100%;
     min-height: 100vh;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-items: stretch;
 }
