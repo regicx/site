@@ -6,6 +6,7 @@ body{
     background-color: #f18aa0;
     color :white;
     margin: 0% auto;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -215,19 +216,34 @@ label{
 }
 
 .produtos2 {
-    display: flex;
     margin: 3%;
     width: 35%;
     border: 1px solid #BE5E72;
     background-color: #BE5E72;
     border-radius: 8px;
+    text-align: center;
 }
 
 .produtos2 h3 {
     font-size: 1.3rem;
     display: block;
+    line-height: 2rem;
+    font-weight: bold; 
 }
 
 .produtos2 img {
-    width: 40%;
+    width: 100%;
+    box-shadow: 3px 2px 2px;
+}
+
+.conjuntop > ul{
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: row;
+}
+.final{
+    display: grid;
+    grid-template-columns: 85% 4% 5%;
+    align-items: center;
+    
 }
