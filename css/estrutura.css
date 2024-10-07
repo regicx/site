@@ -66,6 +66,7 @@ h2.secao_titulo{
     font-size: 0.9em;
     text-align: center;
     padding: 2vmin;
+    width: 100%;
 }
 
 .rodape > p.rodape_paragrafo {
@@ -85,9 +86,90 @@ h2.secao_titulo{
 }
 
 #selecao {
-    
+    width: 5%;
+    margin-top: 5%;
+    display: flex;
 }
 
 .junior {
+    margin: 5%;
+    background-color: #FFA4B7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+}
 
+.junior > h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: normal;
+    margin: 3%;
+}
+
+.carros {
+    width: 20%;
+    margin: 1%;
+}
+
+.carros1 {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.coracao3 {
+    margin-left: 54%;
+    width: 15%;
+}
+
+.icones {
+    display: flex;
+    margin-top: 20%;
+}
+
+section {
+    margin-left: 1%;
+}
+
+.pqp {
+    margin-left: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.comprafinal {
+    font-size: 1.5rem;
+    background-color: #BE5E72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    margin-left: 1300px;
+    margin-bottom: 2%;
+    width: 20%;
+}
+
+.ninico {
+    background-color: #FFA4B7;
+    font-size: 1.5rem;
+    margin-left: 1%;
+    padding: 0 1%;
+    color: white;
+    border: 3px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.fdsava {
+    background-color: #BE5E72;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    width: 30%;
+    font-size: 1.5rem;
+    height: 8%;
+    margin-left: 1%;
 }
