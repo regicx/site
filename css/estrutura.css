@@ -72,3 +72,22 @@ h2.secao_titulo{
     line-height: 1.2em;
     color: #FFE9FF;
 }
+
+.cart {
+    width: 10%;
+}
+
+.main_cart {
+    background-color: #DD8B9D;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#selecao {
+    
+}
+
+.junior {
+
+}

@@ -244,21 +244,22 @@ label{
 }
 
 .final{
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     display: grid;
     grid-template-columns: 85% 6% 8%;
     align-items: center;
-    h1 {
-        padding: 0 3vw;
-        font-size: 1.4em;
-    }
+}
+h1 {
+    padding: 0 3vw;
+    font-size: 1.7em;
 }
 
 .final > a {
     display: block;
-    img {
-        width: 100%;
-    }
+    
+}
+img {
+    width: 70%;
 }
