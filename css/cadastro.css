@@ -45,7 +45,9 @@ h2.secao_titulo{
 
 .container_form > label {
     font-size: 1.1em ;
-    margin: 2% 15%;
+    display: block;
+    width: 80%;
+    margin: 2% auto;
 }
 
 label[for="termos_uso"]{
@@ -119,10 +121,13 @@ a.login_redes {
 
 img.imagem_redes {
     display: block;
-    width: 40%;
-    margin-left: 36%;
-    width: 23em;
-    margin-bottom: 1%;
+    width: 80%;
+    max-width: 500px;
+    margin: 1vmin auto;
     box-shadow: 2px 1px 5px black;
 
+}
+
+.secao_login {
+    width: 100%;
 }
